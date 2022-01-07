@@ -69,3 +69,12 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+nav ul li:hover {
+  border-bottom: 2px solid #1b6ec2;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  color: white;
+}

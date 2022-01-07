@@ -11,21 +11,29 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Acecidade</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                 <img src="~/IMG/Acecidade.png" alt="Imagem Logotipo"  width="50" height="50" class="d-inline-block align-top rounded" />   
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                            <a class="nav-link text-dark p-2 ml-3 mr-3" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Politicas</a>
+                            <a class="nav-link text-dark p-2 ml-3 mr-3" asp-area="" asp-controller="Home" asp-action="Contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark p-2 ml-3 mr-3" asp-area="" asp-controller="Home" asp-action="Privacy">Politicas</a>
                         </li>
                     </ul>
                 </div>
+                <a class="d-flex justify-content-end btn btn-outline-primary" asp-area="" asp-controller="Home" asp-action="Cadastro"> 
+                    Cadastro | Login
+                </a>
             </div>
         </nav>
     </header>
