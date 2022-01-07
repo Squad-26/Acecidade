@@ -35,3 +35,4 @@
 /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/2entregaProjetoFinal.genruntimeconfig.cache
 /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/2entregaProjetoFinal.csproj.CopyComplete
 /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Cadastro.cshtml.g.cs
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contato.cshtml.g.cs
