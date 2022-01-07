@@ -11,14 +11,16 @@
             <form class="needs-validation" novalidate>
                 <div class="form-group">
                     <label for="EmailLogin">Endereço de email: </label>
-                    <input type="email" class="form-control" id="EmailLogin" name="EmailLogin" placeholder="Digite seu email para login" required>
-                    <div class="valid-tooltip">Tudo Certo!</div>
+                    <input type="email" class="form-control" id="EmailLogin" name="EmailLogin"
+                        placeholder="Digite seu email para login" required>
+                    
                     <div class="invalid-feedback">Digite os dados corretamente!</div>
                 </div>
                 <div class="form-group">
                     <label for="SenhaLogin">Senha: </label>
-                    <input type="password" class="form-control" id="SenhaLogin" name="SenhaLogin" placeholder="Digite a senha." required>
-                    <div class="valid-tooltip">Tudo Certo!</div>
+                    <input type="password" class="form-control" id="SenhaLogin" name="SenhaLogin"
+                        placeholder="Digite a senha." required>
+                    
                     <div class="invalid-feedback">Digite os dados corretamente!</div>
                 </div>
                 <div class="form-check">
@@ -27,6 +29,32 @@
                 </div>
                 <button type="submit" class="btn btn-outline-primary">Entrar</button>
             </form>
+
+            <div class="container-fluid">
+                <h5 class="shadow-sm p-3 mb-2 bg-white rounded d-flex justify-content-center font-weight-bold">Login pelas redes sociais:</h5>
+                <ul class="socialLinks d-flex justify-content-center">
+                     <li class="google">
+                        <a target="_blank" href="#">
+                            <i class="bi bi-google"></i>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#" target="_blank">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="facebook">
+                        <a target="_blank" href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="instagram">
+                        <a target="_blank" href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
         <div class="col-lg-6 col-12">
@@ -38,7 +66,6 @@
                     <label for="NomeCadastro">Nome:</label>
                     <input type="text" class="form-control" id="NomeCadastro" name="NomeCadastro"
                         placeholder="Digite seu nome." required>
-                    <div class="valid-tooltip">Tudo Certo!</div>
                     <div class="invalid-feedback">Digite os dados corretamente!</div>
                 </div>
                 <div class="form-group">
@@ -47,15 +74,26 @@
                         placeholder="Digite seu nome social.">
                 </div>
                 <div class="form-group">
-                    <label for="EmailCadastro">Email</label>
+                    <label for="EmailCadastro">Email:</label>
                     <input type="email" class="form-control" id="EmailCadastro" placeholder="Digite seu email"
-                        name="EmailCadastro" required>
-                    <div class="valid-tooltip">Tudo Certo!</div>
+                        name="EmailCadastro" required>                    
                     <div class="invalid-feedback">Digite os dados corretamente!</div>
                 </div>
                 <div class="form-group">
                     <label for="DataNascimentoCadastro">Data de nascimento:</label>
                     <input type="date" id="DataNascimentoCadastro" name="DataNascimentoCadastro" required>
+                </div>
+                <div class="form-group">
+                    <label for="SenhaCadastro">Senha:</label>
+                    <input type="password" class="form-control" id="SenhaCadastro" placeholder="Digite a senha."
+                        name="SenhaCadastro" required>                    
+                    <div class="invalid-feedback">Digite os dados corretamente!</div>
+                </div>
+                <div class="form-group">
+                    <label for="SenhaCadastroConfirmacao">Confirme a senha:</label>
+                    <input type="password" class="form-control" id="SenhaCadastroConfirmacao"
+                        placeholder="Digite novamente a senha." name="SenhaCadastroConfirmacao" required>                    
+                    <div class="invalid-feedback">Digite os dados corretamente!</div>
                 </div>
                 <button class="btn btn-outline-primary" type="submit">Cadastrar</button>
             </form>
