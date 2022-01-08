@@ -37,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Apis.Auth.AspNetCore3": {
+              "target": "Package",
+              "version": "[1.55.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
