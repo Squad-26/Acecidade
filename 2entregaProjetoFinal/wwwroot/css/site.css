@@ -106,3 +106,31 @@ nav ul li a:hover {
   border-bottom: 2px solid #1b6ec2;
 }
 
+/*css do menu lateral*/
+.menu-lateral{
+  position: absolute;
+  width: 300px;
+  height: 519px;
+  background-color: #31314f;
+  top: 77px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.menu-lateral li{
+  margin: 20px;
+  list-style: none;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.mostrar{
+  transition: 1s;
+  width: 300px;
+}
+.esconder{
+   transition: 1s;
+   width: 60px;
+}

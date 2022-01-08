@@ -23,6 +23,11 @@ namespace _2entregaProjetoFinal.Controllers
       return View();
     }
 
+    public IActionResult Locais()
+    {
+      return View();
+    }
+
     public IActionResult Cadastro()
     {
       return View();
