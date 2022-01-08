@@ -14407,13 +14407,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/jonas/Documentos/squad26/2entregaProjetoFinal/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "/home/jonas/Documentos/squad26/2entregaProjetoFinal/Views/Home/index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/jonas/Documentos/squad26/2entregaProjetoFinal/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/home/jonas/Documentos/squad26/2entregaProjetoFinal/Views/Home/home.cshtml",
+      "TargetPath": "Views\\Home\\home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/jonas/Documentos/squad26/2entregaProjetoFinal/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {

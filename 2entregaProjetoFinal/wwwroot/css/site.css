@@ -69,3 +69,32 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/*css do menu lateral*/
+.menu-lateral{
+  position: absolute;
+  width: 300px;
+  height: 539px;
+  background-color: #31314f;
+  top: 56px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.menu-lateral li{
+  margin: 20px;
+  list-style: none;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.mostrar{
+  transition: 1s;
+  width: 300px;
+}
+.esconder{
+   transition: 1s;
+   width: 60px;
+}
