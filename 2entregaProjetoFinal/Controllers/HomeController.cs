@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace _2entregaProjetoFinal.Controllers
 {
-  public class HomeController : Controller
-  {
+  public class HomeController : Microsoft.AspNetCore.Mvc.Controller
+    {
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
