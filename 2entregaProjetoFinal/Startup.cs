@@ -1,6 +1,8 @@
+using _2entregaProjetoFinal.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +26,8 @@ namespace _2entregaProjetoFinal
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<Context>(options => options.UseSqlServer(@"Data Source=HOAK1\SQLEXPRESS;Initial Catalog=Usuarios;Integrated Security=True"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
