@@ -857,24 +857,31 @@
     ]
   },
   "packageFolders": {
-    "/home/jonas/.nuget/packages/": {}
+    "C:\\Users\\heliocarvallho\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jonas/Documentos/test/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
+      "projectUniqueName": "C:\\Users\\heliocarvallho\\Documents\\Recode\\Squad26\\Acecidade\\2entregaProjetoFinal\\2entregaProjetoFinal.csproj",
       "projectName": "2entregaProjetoFinal",
-      "projectPath": "/home/jonas/Documentos/test/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
-      "packagesPath": "/home/jonas/.nuget/packages/",
-      "outputPath": "/home/jonas/Documentos/test/2entregaProjetoFinal/obj/",
+      "projectPath": "C:\\Users\\heliocarvallho\\Documents\\Recode\\Squad26\\Acecidade\\2entregaProjetoFinal\\2entregaProjetoFinal.csproj",
+      "packagesPath": "C:\\Users\\heliocarvallho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\heliocarvallho\\Documents\\Recode\\Squad26\\Acecidade\\2entregaProjetoFinal\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jonas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\heliocarvallho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -925,7 +932,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
