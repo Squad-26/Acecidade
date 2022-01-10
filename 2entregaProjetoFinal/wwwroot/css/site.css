@@ -18,7 +18,7 @@ a {
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -29,6 +29,7 @@ a {
 html {
   font-size: 14px;
 }
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -38,6 +39,7 @@ html {
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -62,18 +64,21 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px;
+  /* Vertically center the text there */
 }
 
 
 nav ul li:hover {
   border-bottom: 2px solid #1b6ec2;
 }
+
 nav ul li a:hover {
   font-weight: bold;
   color: white;
@@ -106,31 +111,191 @@ nav ul li a:hover {
   border-bottom: 2px solid #1b6ec2;
 }
 
-/*css do menu lateral*/
-.menu-lateral{
+
+/* css carossel  */
+.main-content{
+  overflow: visible;
+}
+
+.module-section {
+  max-width: 100%;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  margin-right: 60px;
+  margin-left: 60px;
+  z-index: -1;
+
+}
+
+.module-section ul {
+  width: 600em;
+  list-style-type: none;
+  padding: 0px 0 50px 0;
+
+}
+
+#content {
+  position: relative;
+}
+
+.card {
+  width: 20em;
+  height: 350px;
+  background: #fff;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 19px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 0px #676767;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1);
+  visibility: visible;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  z-index: 100;
+  position: relative;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  transition-duration: 400ms;
+}
+
+.inside-top {
+  width: 100%;
+  height: 150px;
+  background: #000;
   position: absolute;
-  width: 300px;
-  height: 519px;
-  background-color: #31314f;
-  top: 77px;
-  right: 0px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
-.menu-lateral li{
-  margin: 20px;
-  list-style: none;
-  padding-bottom: 30px;
-  text-decoration: none;
+.clearfix {
+  overflow: auto;
 }
 
-.mostrar{
-  transition: 1s;
-  width: 300px;
+/* css card locais */
+.banner .med-caption {
+  font-size: 2.5em
 }
-.esconder{
-   transition: 1s;
-   width: 60px;
+
+.box-title {
+  margin-bottom: 0;
+  line-height: 1em
+}
+
+.box-title small {
+  font-size: 10px;
+  color: #4b4a4a;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 4px
+}
+
+button,
+input[type="button"].button,
+a.button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 15px;
+  white-space: nowrap
+}
+
+button.btn-small,
+input[type="button"].button.btn-small,
+a.button.btn-small {
+  height: 28px;
+  padding: 0 24px;
+  line-height: 28px;
+  font-size: 0.9167em
+}
+
+a.button {
+  display: inline-block;
+  background: #8b8b8b;
+  font-size: 0.8333em;
+  line-height: 1.8333em;
+  white-space: nowrap;
+  text-align: center
+}
+
+a.button:hover {
+  background: #98ce44
+}
+
+button.yellow,
+a.button.yellow,
+input[type="button"].button.yellow {
+  background: #f0715f
+}
+
+button.yellow:hover,
+a.button.yellow:hover,
+input[type="button"].button.yellow:hover {
+  background: #f0715f
+}
+
+.price {
+  color: #7db921;
+  font-size: 1.6667em;
+  text-transform: uppercase;
+  float: right;
+  text-align: right;
+  line-height: 1;
+  display: block
+}
+
+.price small {
+  display: block;
+  color: #838383;
+  font-size: 0.5em
+}
+
+.price-wrapper {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.8333em;
+  color: inherit;
+  line-height: 1.3333em;
+  margin: 0
+}
+
+.price-wrapper .price-per-unit {
+  color: #7db921;
+  font-size: 1.4em;
+  padding-right: 5px
+}
+
+.image-carousel.style2 .slides>li {
+  margin-right: 30px
+}
+
+.image-box .box>.details,
+.image-box.box>.details {
+  padding: 12px 15px
+}
+
+.listing-style1.hotel .feedback {
+  margin: 5px 0;
+  border-top: 1px solid #f5f5f5;
+  padding-top: 5px;
+  border-bottom: 1px solid #f5f5f5
+}
+
+.listing-style1.hotel .feedback .review {
+  display: block;
+  float: right;
+  text-transform: uppercase;
+  font-size: 0.8333em;
+  color: #9e9e9e
+}
+
+.listing-style1.hotel .action .button:last-child {
+  float: right
+}
+
+.fa {
+  color: #f0715f
 }
