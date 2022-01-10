@@ -20,3 +20,25 @@
     });
   }, false);
 })();
+
+function handleCredentialResponse(response) {
+  const data = jwt_decode(response.credential) 
+  console.log(data)
+}
+window.onload = function () {
+  google.accounts.id.initialize({
+    client_id: "1064343277548-vprmt852g7lfju46nm5b4513vrq1cnlh.apps.googleusercontent.com",
+    callback: handleCredentialResponse
+  });
+  google.accounts.id.renderButton(
+    document.getElementById("buttonDiv"),
+    {
+     type: "icon",
+     shape: "square",
+     theme: "outline",
+     text: "$ {button.text}",
+     size: "large"
+    }  // customization attributes
+  );
+  google.accounts.id.prompt(); // also display the One Tap dialog
+}

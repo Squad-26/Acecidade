@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rCmr8Q3Qg6NIpzyRPxeDfySzDP0HfWHqCGS1Lw7ZITBG9teLujj6DqzwdpXM1X8xl88wYTTfHLaSQT8M+J1kcg==",
-  "success": false,
+  "dgSpecHash": "dBe/Fl7RiO8u6UvNN0uqNUdnlMMZMAg5jeok433p/Y6tW6ff9fAeFSwFKkqgPvp7TIC83l8yvCP0NDgIuKm2Kg==",
+  "success": true,
   "projectFilePath": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
   "expectedPackageFiles": [
     "/home/alannub/.nuget/packages/google.apis/1.55.0/google.apis.1.55.0.nupkg.sha512",
     "/home/alannub/.nuget/packages/google.apis.auth/1.55.0/google.apis.auth.1.55.0.nupkg.sha512",
     "/home/alannub/.nuget/packages/google.apis.auth.aspnetcore3/1.55.0/google.apis.auth.aspnetcore3.1.55.0.nupkg.sha512",
     "/home/alannub/.nuget/packages/google.apis.core/1.55.0/google.apis.core.1.55.0.nupkg.sha512",
-    "/home/alannub/.nuget/packages/microsoft.aspnetcore.authentication.google/6.0.1/microsoft.aspnetcore.authentication.google.6.0.1.nupkg.sha512",
     "/home/alannub/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/3.0.3/microsoft.aspnetcore.authentication.openidconnect.3.0.3.nupkg.sha512",
     "/home/alannub/.nuget/packages/microsoft.aspnetcore.authorization/3.0.3/microsoft.aspnetcore.authorization.3.0.3.nupkg.sha512",
     "/home/alannub/.nuget/packages/microsoft.aspnetcore.metadata/3.0.3/microsoft.aspnetcore.metadata.3.0.3.nupkg.sha512",
@@ -25,15 +24,5 @@
     "/home/alannub/.nuget/packages/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
     "/home/alannub/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "O pacote Microsoft.AspNetCore.Authentication.Google 6.0.1 não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O pacote Microsoft.AspNetCore.Authentication.Google 6.0.1 dá suporte a: net6.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "Microsoft.AspNetCore.Authentication.Google",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

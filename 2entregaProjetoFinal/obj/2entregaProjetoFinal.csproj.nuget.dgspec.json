@@ -41,10 +41,6 @@
             "Google.Apis.Auth.AspNetCore3": {
               "target": "Package",
               "version": "[1.55.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Google": {
-              "target": "Package",
-              "version": "[6.0.1, )"
             }
           },
           "imports": [
