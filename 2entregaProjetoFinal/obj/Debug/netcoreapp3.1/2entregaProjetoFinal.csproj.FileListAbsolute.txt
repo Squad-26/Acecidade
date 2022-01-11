@@ -36,3 +36,17 @@
 /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/2entregaProjetoFinal.csproj.CopyComplete
 /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Cadastro.cshtml.g.cs
 /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contato.cshtml.g.cs
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Google.Apis.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Google.Apis.Auth.PlatformServices.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Google.Apis.Auth.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Google.Apis.Auth.AspNetCore3.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Google.Apis.Core.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/Debug/netcoreapp3.1/2entregaProjetoFinal.MvcApplicationPartsAssemblyInfo.cs

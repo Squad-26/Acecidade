@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/jonas/Documentos/aceci/2entregaProjetoFinal/2entregaProjetoFinal.csproj": {}
+    "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj": {}
   },
   "projects": {
-    "/home/jonas/Documentos/aceci/2entregaProjetoFinal/2entregaProjetoFinal.csproj": {
+    "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
+        "projectUniqueName": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
         "projectName": "2entregaProjetoFinal",
-        "projectPath": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
-        "packagesPath": "/home/jonas/.nuget/packages/",
-        "outputPath": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/obj/",
+        "projectPath": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
+        "packagesPath": "/home/alannub/.nuget/packages/",
+        "outputPath": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jonas/.nuget/NuGet/NuGet.Config"
+          "/home/alannub/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,35 +35,12 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Google.Apis.Auth.AspNetCore3": {
               "target": "Package",
               "version": "[1.55.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[3.1.22, )"
-            },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.261602, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.1, )"
             }
           },
           "imports": [

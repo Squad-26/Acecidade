@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace _2entregaProjetoFinal.Controllers
 {
-  public class HomeController : Microsoft.AspNetCore.Mvc.Controller
-    {
+  public class HomeController : Controller
+  {
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -19,11 +19,6 @@ namespace _2entregaProjetoFinal.Controllers
     }
 
     public IActionResult Index()
-    {
-      return View();
-    }
-
-    public IActionResult Locais()
     {
       return View();
     }
