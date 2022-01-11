@@ -1,29 +1,32 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Contato";
 }
 
-<div class="container">
+<div class="container-fluid">
     <h1>Entre em contato conosco</h1>
 </div>
 <main>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm formContat">
-                <form class="needs-validation" novalidate action="https://formsubmit.co/appacecidade@gmail.com" method="POST">
+    <div class="container-fluid">
+        <div class="row p-3">
+            <div class="col-sm">
+                <form target="_blank" action="https://formsubmit.co/appacecidade@gmail.com" method="POST"
+                    enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Endereço de email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="nome@exemplo.com" required>
-                        <div class="invalid-feedback">Digite seu email corretamente!</div>    
+                        <div class="invalid-feedback">Digite seu email corretamente!
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="Assunto">Assunto</label>
-                        <input type="text" class="form-control" id="Assunto" placeholder="Informe o assunto do contato" required>
+                        <input type="text" name="assunto" class="form-control" id="Assunto"
+                            placeholder="Informe o assunto do contato" required>
                         <div class="invalid-feedback">Digite o assunto do seu contato!</div>
                     </div>
                     <div class="form-group">
                         <label for="SelectFeedback">Selecione o FeedBack</label>
-                        <select class="form-control" id="SelectFeedback">
+                        <select class="form-control" name="select" id="SelectFeedback">
                             <option>Reportar um erro</option>
                             <option>Sugestões</option>
                             <option>Inlusão de estabelecimento</option>
@@ -34,19 +37,26 @@
 
                     <div class="form-group">
                         <label for="DescricaoForm">Descrição</label>
-                        <textarea class="form-control" id="DescricaoForm" rows="3"></textarea>
+                        <textarea class="form-control" name="DescricaoForm" rows="3"></textarea>
                         <div class="invalid-feedback">Digite os dados corretamente!</div>
                     </div>
                     <div class="form-group">
                         <label for="Anexo1">Selecione um anexo</label>
-                        <input type="file" class="form-control-file" id="Anexo1">
+                        <input type="file" name="anexo" class="form-control-file" id="Anexo1">
+                        <input type="hidden" name="_autoresponse"
+                            value="Recebemos seu e-mail e logo retornaremos ! Att equipe AceCidade.">
                     </div>
-                    <div><button class="btn btn-outline-primary" type="submit">Enviar</button>
+                    <div>
+                        <button class="btn btn-outline-primary" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
-            <div class="col-sm">
-                <img src="~/IMG/Acecidade.png" alt="logo">
+            <div class="conteiner-fluid">
+                <div class="row p-3">
+                    <div class="col-sm d-flex pl-5 mt-n5 justify-content-center">
+                        <img class="mt-n5" src="~/IMG/Acecidade.png" alt="logo">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
