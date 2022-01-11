@@ -1,0 +1,53 @@
+﻿@model IEnumerable<_2entregaProjetoFinal.Models.Avaliacao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NotaEstabelecimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comentario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CadastrarEstabelecimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CadastrarUsuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotaEstabelecimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comentario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CadastrarEstabelecimento.IdEstabelecimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CadastrarUsuario.IdUsuario)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdAvaliacao">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdAvaliacao">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdAvaliacao">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

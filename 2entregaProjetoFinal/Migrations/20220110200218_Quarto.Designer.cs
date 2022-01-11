@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _2entregaProjetoFinal.Models;
 
@@ -11,9 +12,10 @@ using _2entregaProjetoFinal.Models;
 namespace _2entregaProjetoFinal.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20220110200218_Quarto")]
+    partial class Quarto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,23 +32,15 @@ namespace _2entregaProjetoFinal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAvaliacao"), 1L, 1);
 
-                    b.Property<string>("Comentario")
+                    b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("IdEstabelecimento")
                         .HasColumnType("int");
 
-                    b.Property<int>("IdUsuario")
-                        .HasColumnType("int");
-
-                    b.Property<float>("NotaEstabelecimento")
-                        .HasColumnType("real");
-
                     b.HasKey("IdAvaliacao");
 
                     b.HasIndex("IdEstabelecimento");
-
-                    b.HasIndex("IdUsuario");
 
                     b.ToTable("avaliacoes");
                 });
@@ -71,8 +65,8 @@ namespace _2entregaProjetoFinal.Migrations
                     b.Property<string>("NomeEstabelecimento")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("NotaEstabelecimento")
-                        .HasColumnType("real");
+                    b.Property<int>("NotaEstabelecimento")
+                        .HasColumnType("int");
 
                     b.HasKey("IdEstabelecimento");
 
@@ -115,15 +109,7 @@ namespace _2entregaProjetoFinal.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("_2entregaProjetoFinal.Models.CadastrarUsuario", "CadastrarUsuario")
-                        .WithMany()
-                        .HasForeignKey("IdUsuario")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("CadastrarEstabelecimento");
-
-                    b.Navigation("CadastrarUsuario");
                 });
 
             modelBuilder.Entity("_2entregaProjetoFinal.Models.CadastrarEstabelecimento", b =>
