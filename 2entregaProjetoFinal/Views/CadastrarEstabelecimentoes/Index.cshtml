@@ -1,0 +1,59 @@
+﻿@model IEnumerable<_2entregaProjetoFinal.Models.CadastrarEstabelecimento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeEstabelecimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NotaEstabelecimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HorarioFuncionamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComentariosEstabelecimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AcessibilidadesEstabelecimentos)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeEstabelecimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotaEstabelecimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HorarioFuncionamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComentariosEstabelecimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AcessibilidadesEstabelecimentos)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdEstabelecimento">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdEstabelecimento">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdEstabelecimento">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

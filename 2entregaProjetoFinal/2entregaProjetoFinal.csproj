@@ -4,8 +4,17 @@
     <RootNamespace>_2entregaProjetoFinal</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1"/>
+    <PackageReference Include="Google.Apis.Auth.AspNetCore3" Version="1.55.0" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.261602">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1" />
+    <PackageReference Include="TimePeriodLibrary.NET" Version="2.1.1" />
   </ItemGroup>
 </Project>

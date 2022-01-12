@@ -1,0 +1,48 @@
+﻿@model _2entregaProjetoFinal.Models.CadastrarEstabelecimento
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>CadastrarEstabelecimento</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeEstabelecimento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomeEstabelecimento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NotaEstabelecimento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NotaEstabelecimento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioFuncionamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HorarioFuncionamento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ComentariosEstabelecimento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ComentariosEstabelecimento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AcessibilidadesEstabelecimentos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AcessibilidadesEstabelecimentos)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdEstabelecimento">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
