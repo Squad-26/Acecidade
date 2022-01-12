@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\heliocarvallho\Documents\Recode\Squad26\Acecidade\2entregaProjetoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/heliocarvallho/.nuget/packages/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.3.261602/build/WebTypeReplacements.typemap]
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/heliocarvallho/Documents/Recode/Squad26/Acecidade/2entregaProjetoFinal/Views/Avaliacaos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2Fvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
