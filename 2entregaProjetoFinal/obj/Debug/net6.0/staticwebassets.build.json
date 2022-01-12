@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JOWGV2oEC0bFKE+l1aQ9KvUNw+5QWMjRGGe1wh2sWzw=",
+  "Hash": "su9LLcsLcNGMGydV6Ku8wzskjq/UGwfzcDy9SzaWk9E=",
   "Source": "2entregaProjetoFinal",
   "BasePath": "_content/2entregaProjetoFinal",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot/IMG/Acecidade.png"
     },
     {
+      "Identity": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/wwwroot/IMG/cadeirante-sorrindo.jpg",
+      "SourceId": "2entregaProjetoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/wwwroot/",
+      "BasePath": "_content/2entregaProjetoFinal",
+      "RelativePath": "IMG/cadeirante-sorrindo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/IMG/cadeirante-sorrindo.jpg"
+    },
+    {
       "Identity": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/wwwroot/IMG/dominos-fica-em-casa.webp",
       "SourceId": "2entregaProjetoFinal",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/IMG/índice.png"
+    },
+    {
+      "Identity": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/wwwroot/IMG/screen.jpg",
+      "SourceId": "2entregaProjetoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/wwwroot/",
+      "BasePath": "_content/2entregaProjetoFinal",
+      "RelativePath": "IMG/screen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/IMG/screen.jpg"
     },
     {
       "Identity": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/wwwroot/js/site.js",
