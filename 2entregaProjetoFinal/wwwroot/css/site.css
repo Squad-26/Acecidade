@@ -296,3 +296,7 @@ input[type="button"].button.yellow:hover {
 .fa {
   color: #f0715f
 } 
+
+#logoContato {
+  z-index: -2;
+}
