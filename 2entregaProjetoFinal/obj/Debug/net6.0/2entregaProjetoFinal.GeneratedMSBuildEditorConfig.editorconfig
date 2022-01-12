@@ -8,113 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _2entregaProjetoFinal
 build_property.RootNamespace = _2entregaProjetoFinal
-build_property.ProjectDir = /home/jonas/Documentos/aceci/2entregaProjetoFinal/
+build_property.ProjectDir = /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/jonas/Documentos/aceci/2entregaProjetoFinal
+build_property.MSBuildProjectDirectory = /home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/jonas/.nuget/packages/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.3.261602/build/WebTypeReplacements.typemap]
+[/home/alannub/.nuget/packages/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.3.261602/build/WebTypeReplacements.typemap]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Avaliacaos/Create.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Avaliacaos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXZhbGlhY2Fvcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Avaliacaos/Delete.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Avaliacaos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXZhbGlhY2Fvcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Avaliacaos/Details.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Avaliacaos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXZhbGlhY2Fvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Avaliacaos/Edit.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Avaliacaos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXZhbGlhY2Fvcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Avaliacaos/Index.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Avaliacaos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXZhbGlhY2Fvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Create.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyRXN0YWJlbGVjaW1lbnRvZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Delete.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyRXN0YWJlbGVjaW1lbnRvZXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Details.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyRXN0YWJlbGVjaW1lbnRvZXMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Edit.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyRXN0YWJlbGVjaW1lbnRvZXMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Index.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarEstabelecimentoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyRXN0YWJlbGVjaW1lbnRvZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarUsuarios/Create.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarUsuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyVXN1YXJpb3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarUsuarios/Delete.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarUsuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyVXN1YXJpb3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarUsuarios/Details.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarUsuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyVXN1YXJpb3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarUsuarios/Edit.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarUsuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyVXN1YXJpb3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/CadastrarUsuarios/Index.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/CadastrarUsuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FkYXN0cmFyVXN1YXJpb3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Home/Cadastro.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Home/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Home/Contato.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Home/Contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Home/Index.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Home/Locais.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Home/Locais.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2NhaXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Home/Privacy.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Shared/Error.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Shared/_Layout.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/_ViewImports.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonas/Documentos/aceci/2entregaProjetoFinal/Views/_ViewStart.cshtml]
+[/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

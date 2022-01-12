@@ -9802,19 +9802,19 @@
     ]
   },
   "packageFolders": {
-    "/home/jonas/.nuget/packages/": {}
+    "/home/alannub/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
+      "projectUniqueName": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
       "projectName": "2entregaProjetoFinal",
-      "projectPath": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
-      "packagesPath": "/home/jonas/.nuget/packages/",
-      "outputPath": "/home/jonas/Documentos/aceci/2entregaProjetoFinal/obj/",
+      "projectPath": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/2entregaProjetoFinal.csproj",
+      "packagesPath": "/home/alannub/.nuget/packages/",
+      "outputPath": "/home/alannub/Documentos/RecodePro/2_Entrega_Projeto_Final/Acecidade/2entregaProjetoFinal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jonas/.nuget/NuGet/NuGet.Config"
+        "/home/alannub/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
