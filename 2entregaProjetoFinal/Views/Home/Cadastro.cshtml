@@ -32,7 +32,9 @@
                 <h5 class="shadow-sm p-3 mb-2 bg-white rounded d-flex justify-content-center font-weight-bold">Login pelas redes sociais:</h5>
                 <ul class="socialLinks d-flex justify-content-center">
                      <li class="google">
-                         <div id="buttonDiv"></div> 
+                        <a target="_blank" href="#">
+                            <i class="bi bi-google"></i>
+                        </a>
                     </li>
                     <li class="twitter">
                         <a href="#" target="_blank">
@@ -53,6 +55,20 @@
             </div>
 
         </div>
+        <ul type="none">
+            <li>Área dos Usuários:</li>
+            <li><a asp-action="Create" asp-controller="CadastrarUsuarios"><button>Cadastra-se Aqui</button></a></li>
+            <li><a asp-action="Create" asp-controller="Avaliacaos"><button>Avalie Aqui</button></a></li>
+            <li><a asp-action="Index" asp-controller="Avaliacaos"><button>Consultar Avaliações</button></a></li>
+        </ul>
+        <br>
+        <ul type="none">
+            <li>Área dos Administradores:</li>
+            <li><a asp-action="Create" asp-controller="CadastrarEstabelecimentoes"><button>Cadastrar Estabelecimento</button></a></li>
+            <li><a asp-action="Index" asp-controller="CadastrarEstabelecimentoes"><button>Consultar Estabelecimentos</button></a></li>
+            <li><a asp-action="Index" asp-controller="CadastrarUsuarios"><button>Consultar Usuários</button></a></li> 
+        </ul>
+
         <div class="col-lg-6 col-12">
             <h2 class="shadow-sm p-3 mb-5 bg-white rounded d-flex justify-content-center font-weight-bold">Faça seu
                 cadastro:</h2>

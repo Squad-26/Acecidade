@@ -9,22 +9,22 @@ using _2entregaProjetoFinal.Models;
 
 namespace _2entregaProjetoFinal.Controllers
 {
-    public class CadastrarUsuariosController : Controller
+    public class CadastrarEstabelecimentoesController : Controller
     {
         private readonly Context _context;
 
-        public CadastrarUsuariosController(Context context)
+        public CadastrarEstabelecimentoesController(Context context)
         {
             _context = context;
         }
 
-        // GET: CadastrarUsuarios
+        // GET: CadastrarEstabelecimentoes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.usuarios.ToListAsync());
+            return View(await _context.estabelecimentos.ToListAsync());
         }
 
-        // GET: CadastrarUsuarios/Details/5
+        // GET: CadastrarEstabelecimentoes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,39 +32,35 @@ namespace _2entregaProjetoFinal.Controllers
                 return NotFound();
             }
 
-            var cadastrarUsuario = await _context.usuarios
-                .FirstOrDefaultAsync(m => m.IdUsuario == id);
-            if (cadastrarUsuario == null)
+            var cadastrarEstabelecimento = await _context.estabelecimentos
+                .FirstOrDefaultAsync(m => m.IdEstabelecimento == id);
+            if (cadastrarEstabelecimento == null)
             {
                 return NotFound();
             }
 
-            return View(cadastrarUsuario);
+            return View(cadastrarEstabelecimento);
         }
 
-        // GET: CadastrarUsuarios/Create
+        // GET: CadastrarEstabelecimentoes/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: CadastrarUsuarios/Create
+        // POST: CadastrarEstabelecimentoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdUsuario,NomeUsuario,NessecidadeEspecial,UserName,Data_Nascimento,Senha")] CadastrarUsuario cadastrarUsuario)
+        public async Task<IActionResult> Create([Bind("IdEstabelecimento,NomeEstabelecimento,NotaEstabelecimento,HorarioFuncionamento,ComentariosEstabelecimento,AcessibilidadesEstabelecimentos")] CadastrarEstabelecimento cadastrarEstabelecimento)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(cadastrarUsuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(cadastrarUsuario);
+            _context.Add(cadastrarEstabelecimento);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: CadastrarUsuarios/Edit/5
+        // GET: CadastrarEstabelecimentoes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -72,22 +68,22 @@ namespace _2entregaProjetoFinal.Controllers
                 return NotFound();
             }
 
-            var cadastrarUsuario = await _context.usuarios.FindAsync(id);
-            if (cadastrarUsuario == null)
+            var cadastrarEstabelecimento = await _context.estabelecimentos.FindAsync(id);
+            if (cadastrarEstabelecimento == null)
             {
                 return NotFound();
             }
-            return View(cadastrarUsuario);
+            return View(cadastrarEstabelecimento);
         }
 
-        // POST: CadastrarUsuarios/Edit/5
+        // POST: CadastrarEstabelecimentoes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdUsuario,NomeUsuario,NessecidadeEspecial,UserName,Data_Nascimento,Senha")] CadastrarUsuario cadastrarUsuario)
+        public async Task<IActionResult> Edit(int id, [Bind("IdEstabelecimento,NomeEstabelecimento,NotaEstabelecimento,HorarioFuncionamento,ComentariosEstabelecimento,AcessibilidadesEstabelecimentos")] CadastrarEstabelecimento cadastrarEstabelecimento)
         {
-            if (id != cadastrarUsuario.IdUsuario)
+            if (id != cadastrarEstabelecimento.IdEstabelecimento)
             {
                 return NotFound();
             }
@@ -96,12 +92,12 @@ namespace _2entregaProjetoFinal.Controllers
             {
                 try
                 {
-                    _context.Update(cadastrarUsuario);
+                    _context.Update(cadastrarEstabelecimento);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CadastrarUsuarioExists(cadastrarUsuario.IdUsuario))
+                    if (!CadastrarEstabelecimentoExists(cadastrarEstabelecimento.IdEstabelecimento))
                     {
                         return NotFound();
                     }
@@ -112,10 +108,10 @@ namespace _2entregaProjetoFinal.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(cadastrarUsuario);
+            return View(cadastrarEstabelecimento);
         }
 
-        // GET: CadastrarUsuarios/Delete/5
+        // GET: CadastrarEstabelecimentoes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -123,30 +119,30 @@ namespace _2entregaProjetoFinal.Controllers
                 return NotFound();
             }
 
-            var cadastrarUsuario = await _context.usuarios
-                .FirstOrDefaultAsync(m => m.IdUsuario == id);
-            if (cadastrarUsuario == null)
+            var cadastrarEstabelecimento = await _context.estabelecimentos
+                .FirstOrDefaultAsync(m => m.IdEstabelecimento == id);
+            if (cadastrarEstabelecimento == null)
             {
                 return NotFound();
             }
 
-            return View(cadastrarUsuario);
+            return View(cadastrarEstabelecimento);
         }
 
-        // POST: CadastrarUsuarios/Delete/5
+        // POST: CadastrarEstabelecimentoes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var cadastrarUsuario = await _context.usuarios.FindAsync(id);
-            _context.usuarios.Remove(cadastrarUsuario);
+            var cadastrarEstabelecimento = await _context.estabelecimentos.FindAsync(id);
+            _context.estabelecimentos.Remove(cadastrarEstabelecimento);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CadastrarUsuarioExists(int id)
+        private bool CadastrarEstabelecimentoExists(int id)
         {
-            return _context.usuarios.Any(e => e.IdUsuario == id);
+            return _context.estabelecimentos.Any(e => e.IdEstabelecimento == id);
         }
     }
 }
